@@ -1,0 +1,51 @@
+@startuml
+
+skin rose
+
+title Classes - Class Diagram
+
+
+class Simulador {
+  +String pegarSimulacoesTestadas()
+  +void gerarGraficoTaxaDeVariacao()
+  +void gerarGrafico()
+  +void rodarSimulacoes(quantidadeSimulacoes)
+}
+
+class Assento {
+  +void ocuparAssento(pessoa)
+}
+
+class Classe {
+  +Int quantidadeAssentos
+  +Int assentosPorFila
+  +void ocuparAssento(passageiro, numero)
+}
+
+
+class Aviao {
+  +String classesDisponiveis
+  +List filas 
+  
+  +Boolean corredorVazio()
+  +Boolean colocarFila(passageiro)
+  
+  +void andarFila()
+  +String __str__()
+}
+
+class Pessoa {
+  
+}
+
+class Criança extends Pessoa {
+  +Boolean temBagagem = False
+  +Int tempoBagagem = 0
+}
+
+class Adulto extends Pessoa {
+  +Boolean temBagagem = True
+  +Int tempoBagagem = 3
+}
+
+@enduml
