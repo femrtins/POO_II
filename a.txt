@@ -6,39 +6,38 @@ title Classes - Class Diagram
 
 
 class Simulador {
+  +Void criarBD()
   +String pegarSimulacoesTestadas()
-  +void gerarGraficoTaxaDeVariacao()
-  +void gerarGrafico()
-  +void rodarSimulacoes(quantidadeSimulacoes)
+  +Void gerarGrafico(opcao=0)
+  +Void gerarGraficos()
+  +Void metodoSteffan(posicoes: List, filaDeEmbarque: List, sequencia: List, fileiras: List)
+  +Void rodarSimulacoes(quantidadeSimulacoes: Int, opcao: Int, qtdAssento: Int, qtdColuna: Int)
 }
 
 class Assento {
-  +void ocuparAssento(pessoa)
+  +Assento()
+  +Void ocuparAssento(pessoa: Pessoa)
 }
 
-class Classe {
-  +Int quantidadeAssentos
-  +Int assentosPorFila
-  +void ocuparAssento(passageiro, numero)
+class Classe{
+  +Classe(nome: String, qtdAssento: Int, qtdColunas: Int)
+  +Void ocuparAssento(passageiro: Pessoa, numero: Int)
 }
 
 
 class Aviao {
-  +String classesDisponiveis
-  +List filas 
-  
+  +Aviao(qtdAssentos: Int, qtdColunas: Int)
   +Boolean corredorVazio()
-  +Boolean colocarFila(passageiro)
-  
-  +void andarFila()
+  +Boolean colocarFila(passageiro: Pessoa)
+  +Void andarFila()
   +String __str__()
 }
 
-class Pessoa {
-  
+abstract class Pessoa {
+  +Pessoa(nome: String, assento: Assento)
 }
 
-class Criança extends Pessoa {
+class Crianca extends Pessoa {
   +Boolean temBagagem = False
   +Int tempoBagagem = 0
 }
@@ -47,5 +46,12 @@ class Adulto extends Pessoa {
   +Boolean temBagagem = True
   +Int tempoBagagem = 3
 }
+
+Classe o-- Pessoa
+Aviao *-- Assento
+Simulador o-- Aviao
+Simulador o-- Pessoa
+Assento o-- Pessoa
+Aviao o--- Pessoa
 
 @enduml
