@@ -5,11 +5,11 @@
 - José Mateus Amaral
 - Monique Ellen dos Santos
 
-### RESUMO
+## RESUMO
 
 Para haver maior eficiência nos processos, e consequentemente menores perdas financeiras, a diminuição de atrasos é essencial. Este artigo examina as interferências entre os passageiros que resultam em atrasos no tempo de embarque de uma aeronave. Foi desenvolvido um algoritmo de criação de sequências de filas de embarque que a partir de força bruta, poderia encontrar a melhor sequência e diminuir atrasos em voos. Os resultados apontam que métodos específicos podem ser usados para aumentar a eficiência em embarques. Dessa forma, é possível diminuir o tempo de embarque utilizando o algoritmo, apesar de não levar em consideração aleatoriedades e espaço para bagagens.
 
-### INTRODUÇÃO
+## INTRODUÇÃO
 
 O processo de embarque em um avião envolve uma série de etapas que o torna um desafio logístico. O tempo gasto pelos passageiros se acomodarem em seus assentos tem impacto direto na eficiência e pontualidade dos voos. Atrasos no embarque resultam em inconvenientes para os passageiros e custos adicionais para as companhias aéreas.
 
@@ -19,7 +19,7 @@ Nesse contexto, a utilização de ambientes simulados surge como uma abordagem p
 
 Este artigo tem como objetivo explorar a aplicação de um ambiente simulado na otimização do tempo que as pessoas demoram para embarcar em uma aeronave. Através do uso de técnicas de programação orientada a objetos e algoritmos de otimização, buscamos encontrar uma sequência de assentamento mais eficiente, considerando interferências de assentos e bagagem de mão.
 
-### MATERIAL E MÉTODOS
+## MATERIAL E MÉTODOS
 
 O código foi feito em Python 3.10, possui 7 classes (Figura 1), implementação em SQLite para armazenar as sequências.
 
