@@ -23,7 +23,7 @@ Este artigo tem como objetivo explorar a aplicação de um ambiente simulado na 
 
 O código foi feito em Python 3.10, possui 7 classes (Figura 1), implementação em SQLite para armazenar as sequências.
 
-![Figura 1 - Diagrama de classes do código. Fonte: Construção dos autores.]([https://link_para_a_imagem](https://github.com/femrtins/POO_II/blob/main/imagens/Diagrama%20de%20Classes.png))
+![Figura 1 - Diagrama de classes do código. Fonte: Construção dos autores.](https://github.com/femrtins/POO_II/blob/main/imagens/Diagrama%20de%20Classes.png)
 
 A primeira etapa do algoritmo consiste em definir uma representação adequada dos passageiros e dos assentos disponíveis na aeronave. Cada passageiro é tratado como um objeto individual, contendo as informações do número do assento e existência de bagagem. Os assentos também são representados como objetos, com características como localização, classe e disponibilidade.
 
@@ -35,7 +35,7 @@ O código armazena as sequências e seus respectivos tempos gastos. O algoritmo 
 
 Para fins de comparação com outros estudos, as simulações foram calculadas com 72 assentos, sendo 6 fileiras e um corredor central (Figura 2). Também são considerados métodos de embarque, Steffen e Hotchkiss, (2011) apresentam cinco métodos de embarque que foram implementados no código, sendo:
 
-![Figura 2 - Visualização da simulação do avião. Fonte: STEFFEN; HOTCHKISS, 2011](https://link_para_a_imagem)
+![Figura 2 - Visualização da simulação do avião. Fonte: STEFFEN; HOTCHKISS, 2011](https://github.com/femrtins/POO_II/blob/main/imagens/Simula%C3%A7%C3%A3o%20artigo.jpeg)
 
 - Aleatório: Os passageiros embarcam em qualquer ordem. Não há sequências determinadas.
 - Por Blocos: Os passageiros são divididos em três grupos. As 4 últimas linhas do avião formam o primeiro grupo (9-12), as 4 linhas do meio formam o segundo grupo (05-08) e o último grupo é formado pelos passageiros das primeiras linhas (01-04).
