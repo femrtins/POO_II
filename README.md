@@ -23,7 +23,7 @@ Este artigo tem como objetivo explorar a aplicação de um ambiente simulado na 
 
 O código foi feito em Python 3.10, possui 7 classes (Figura 1), implementação em SQLite para armazenar as sequências.
 
-![Figura 1 - Diagrama de classes do código. Fonte: Construção dos autores.](https://link_para_a_imagem)
+![Figura 1 - Diagrama de classes do código. Fonte: Construção dos autores.]([https://link_para_a_imagem](https://github.com/femrtins/POO_II/blob/main/imagens/Diagrama%20de%20Classes.png))
 
 A primeira etapa do algoritmo consiste em definir uma representação adequada dos passageiros e dos assentos disponíveis na aeronave. Cada passageiro é tratado como um objeto individual, contendo as informações do número do assento e existência de bagagem. Os assentos também são representados como objetos, com características como localização, classe e disponibilidade.
 
