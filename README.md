@@ -1,6 +1,6 @@
 # SIMULAÇÃO DE MÉTODOS DE EMBARQUE EM AVIÕES
 
-## Autores:
+## Autores
 - Fernanda Ribeiro Martins
 - José Mateus Amaral
 - Monique Ellen dos Santos
